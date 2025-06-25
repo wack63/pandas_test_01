@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 讀檔
-df = pd.read_excel('小拉基.xlsx')  # 替換成你的檔案名稱
+df = pd.read_excel('xxx.xlsx')  # 替換成你的檔案名稱
 
 # 欄位命名
 df.columns = ['日期', '店櫃編號', '現金', '連線信用卡', '離線信用卡', 'LINE_PAY', '全支付PAY', '台灣PAY']
